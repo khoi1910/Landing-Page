@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    background-color: #E7E7E3;
+}
+
+a {
+    text-decoration: none;
+}
+/* .Khoi_container */
+.Khoi_container {
+    margin: 0 auto;
+    width: 1320px;
+}
+
+/* .Khoi_header */
+.Khoi_header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* .Khoi_inner-wrap */
+.Khoi_header .Khoi_inner-wrap {
+    background-color: #FAFAFA;
+    border-radius: 24px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 263px;
+}
+
+/* .Khoi_inner-menu */
+.Khoi_header .Khoi_inner-menu ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 40px;
+}
+
+.Khoi_header .Khoi_inner-menu a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #232321;
+}
+
+/* .Khoi_inner-logo */
+
+.Khoi_header .Khoi_inner-logo{
+    flex: 1;
+    text-align: center;
+}
+
+.Khoi_header .Khoi_inner-logo .img {
+    width: auto;
+    height: 32px;
+}
+
+/* .Khoi_inner-right button */
+.Khoi_header .Khoi_inner-right button {
+    background-color: transparent;
+    border: 0;
+    font-size: 22.7px;
+}
+
+.Khoi_header .Khoi_inner-right {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+/* section 1, .Khoi_inner-wrap */
+
+.Khoi_section-1 img {
+    width: 1310px;
+    height: 224px;
+}
+
+.Khoi_section-1 .Khoi_inner-wrap {
+    height: 289px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+/* .Khoi_section-2 */
+
+.Khoi_section-2 .Khoi_inner-wrap {
+    background-image: url('/assets/images/poster.svg');
+    height: 750px;
+    padding: 0;
+    position: relative;
+}
+
+.Khoi_section-2 .Khoi_inner-top-left {
+    position: absolute;
+    left: -85px;
+    top: 170px;
+    width: 237px;
+    height: 67px;
+    padding: 24px;
+    background-color: #232321;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    transform: rotate(-90deg);
+}
+
+.Khoi_section-2 .Khoi_inner-top-left .Khoi_content {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18,96px;
+    color: #E7E7E3;
+}
+
+.Khoi_section-2 .Khoi_inner-bot-left{
+    width: 490px;
+    height: 226px;
+    position: absolute;
+    bottom: 48px;
+    top: 476px;
+    left: 48px;
+    right: 782px;
+}
+
+.Khoi_inner-bot-left .Khoi_inner-content .Khoi_content-1 {
+    height: 88px;
+    width: 100%;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 74px;
+}
+
+.Khoi_inner-bot-left .Khoi_inner-content .Khoi_content-2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32,68px;
+    color: #E7E7E3;
+    height: 66px;
+    width: 100%;
+}
+
+
+.Khoi_inner-bot-left .Khoi_inner-content .Khoi_content-3 {
+    width: 138px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #4A69E2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.Khoi_inner-bot-left .Khoi_button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #FFF;
+}
+
+.Khoi_section-2 .Khoi_inner-bot-right {
+    position: absolute;
+    bottom: 32px;
+    left: 1128px;
+    right: 32px;
+    gap: 16px;
+    width: 160px;
+    height: 336px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.Khoi_section-2 .Khoi_inner-bot-right .Khoi_pic {
+    width: 100%;
+    height: calc(50% - 8px);
+    border: 3px #E7E7E3;
+    border-radius: 32px;
+}
+
+/* .Khoi_section-3 */
+
+.Khoi_section-3 .Khoi_container {
+    padding: 90px 0 128px;
+}
+
+.Khoi_section-3 .Khoi_top {
+    position: relative;
+    height: 140px;
+    margin-bottom: 32px;
+}
+
+.Khoi_section-3 .Khoi_top-left {
+    height: 140px;
+    position: absolute;
+    right: 731px;
+    top: 0;
+}
+
+.Khoi_section-3 .Khoi_top-left .Khoi_content {
+    font-weight: 600;
+    font-size: 74px;
+    color: #232321;
+    line-height: 1;
+}
+
+.Khoi_section-3 .Khoi_bot-right{
+    width: 189px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #4A69E2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 92px;
+    right: 0;
+}
+.Khoi_section-3 .Khoi_bot-right .Khoi_button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #FFF;
+
+}
+
+/* product */
+
+.Khoi_section-3 .Khoi_product {
+    display: flex;
+    gap: 16px;
+}
+.Khoi_section-3 .Khoi_product-item {
+    width: calc((100% - 48px) / 4);
+}
+
+.Khoi_section-3 .Khoi_product-item .Khoi_inner-image {
+    background-color: #FAFAFA;
+    height: 350px;
+    border-radius: 28px;
+    overflow: hidden;
+    padding: 8px;
+}
+.Khoi_section-3 .Khoi_product-item .Khoi_inner-image img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Khoi_section-3 .Khoi_inner-content {
+    margin-top: 16px;
+}
+
+.Khoi_section-3 .Khoi_inner-content .Khoi_inner-title {
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.Khoi_section-3 .Khoi_inner-content .Khoi_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #232321;
+    margin: 0;
+}
+.Khoi_section-3 .Khoi_inner-content .Khoi_inner-price {
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #232321;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Khoi_section-3 .Khoi_inner-content .Khoi_inner-price .Khoi_cost {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFF;
+    
+}
+
+/* .Khoi_section-4 */
+
+.Khoi_section-4 .Khoi_top {
+    height: 70px;
+    position: relative;
+    width: calc(100% - 7%);
+}
+
+.Khoi_section-4 .Khoi_inner-top-left{
+    height: 70px;
+    display: inline-flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.Khoi_section-4 .Khoi_inner-top-left .Khoi_content{
+    font-weight: 600;
+    font-size: 70px;
+    color:  #232321;
+    line-height: 70.3px;
+}
+
+.Khoi_section-4 .Khoi_inner-top-right {
+    gap: 10px;
+    display: inline-flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.Khoi_section-4 .Khoi_box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.Khoi_section-4 .Khoi_box-1:hover {
+    background-color: #C3C6D1;
+}
+
+.Khoi_section-4 .Khoi_bot {
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    height: 600px;
+    border-top-left-radius: 50px;
+    width: 100%;
+    margin-top: 64px;
+}
+.Khoi_section-4 .Khoi_inner-bot {
+    width: calc((100%) / 2);
+    height: 600px;
+    position: relative;
+}
+
+.Khoi_bot-wrap {
+    background-color: #ECEEF0;
+    width: calc((100%) / 2);
+    height: 600px; 
+    position: relative;
+    border-top-left-radius: 50px;
+}
+
+.Khoi_section-4 .Khoi_inner-bot-1 {
+    width: 660px;
+}
+.Khoi_section-4 .Khoi_inner-bot-2 {
+    background-color: #F6F6F6;
+    width: calc((100%) / 2);
+    height: 600px;
+}
+.Khoi_section-4 .Khoi_inner-bot img {
+    object-fit: cover;
+    width: 480px;
+    height: 500px;
+    position: absolute; 
+    top: 50px;
+    right: 105px;
+    left: 105px;
+    z-index: 1;
+}
+
+.Khoi_section-4 .Khoi_inner-bot .Khoi_title {
+    height: 86px;
+    font-weight: 600;
+    font-size: 36px;
+    position: absolute;
+    left: 48px;
+    bottom: 30px;
+    z-index: 10;
+}
+
+.Khoi_section-4 .Khoi_inner-bot .Khoi_title-1 {
+    width: 191px;
+}
+.Khoi_section-4 .Khoi_inner-bot .Khoi_title-2 {
+    width: 234px;
+}
+
+.Khoi_section-4 .Khoi_inner-bot .Khoi_button {
+    font-size: 48px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+/* .Khoi_section-5 */
+
+/* <section class="Khoi_section-5">
+<div class="Khoi_container">
+    <div class="Khoi_inner-wrap">
+        <div class="Khoi_top">
+            <div class="Khoi_top-left">
+                <div class="Khoi_content">REVIEWS</div>
+            </div>
+            <div class="Khoi_bot-right">
+                <div class="Khoi_button">SEE ALL</div>
+            </div>
+        </div>
+    </div>
+</div>
+</section> */
+
+.Khoi_section-5 .Khoi_container {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.Khoi_section-5 .Khoi_top {
+    position: relative;
+    height: 70px;
+    margin-bottom: 48px;
+}
+
+.Khoi_section-5 .Khoi_top-left {
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Khoi_section-5 .Khoi_top-left .Khoi_content {
+    font-weight: 600;
+    font-size: 74px;
+    color: #232321;
+}
+
+.Khoi_section-5 .Khoi_bot-right{
+    width: 121px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #4A69E2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+.Khoi_section-5 .Khoi_bot-right .Khoi_button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #FFF;
+}
+
+.Khoi_section-5 .Khoi_good {
+    font-weight: 600;
+    font-size: 24px;
+    color: #232321;
+    margin-bottom: 8px;
+}
+
+.Khoi_section-5 .Khoi_write {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Open Sans", serif;
+}
+
+.Khoi_section-5 .Khoi_cmt {
+    width: 293px;
+    height: 80px;
+    margin-right: 8px;
+}
+
+.Khoi_section-5 .Khoi_photo img {
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    border: 100px;
+}
+
+.Khoi_section-5 .Khoi_p1 {
+    display: flex;
+    width: 365px;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+.Khoi_section-5 .Khoi_p2 {
+    width: 365px;
+    height: 24px;
+    text-align: left;
+}
+
+.Khoi_section-5 .Khoi_person {
+    width: 429px;
+    height: 176px;
+    padding: 32px;
+    background-color: #FAFAFA;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.Khoi_section-5 .Khoi_image {
+    object-fit: cover;
+    width: 429px;
+    height: 325px;
+}
+.Khoi_section-5 img {
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.Khoi_section-5 .Khoi_bot {
+    display: flex;
+    gap: 16px;
+}
+
+/* .Khoi_footer */
+
+.Khoi_footer .Khoi_content .Khoi_content-1 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+    height: 114px;
+    width: 510px;
+}
+
+.Khoi_footer .Khoi_content .Khoi_content-2 {
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    height: 27px;
+    width: 354px;
+    margin-top: 16px;
+    color: #E7E7E3;
+}
+
+.Khoi_footer .Khoi_content {
+    width: 510px;
+    height: 157px;
+    margin-bottom: 32px;
+}
+
+.Khoi_footer .Khoi_inner-form {
+    background-color: transparent;
+    height: 48px;
+    width: 342px;
+    border-radius: 10px;
+    padding: 10px 16px;
+    border: 1px solid #fff;
+}
+
+.Khoi_footer .Khoi_inner-form input {
+    border: 0;
+    outline: 0;
+    height: 100%;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: yellow;
+}
+  
+.Khoi_footer .Khoi_form .Khoi_button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 102px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #232321;
+    border-radius: 10px;
+  }
+
+.Khoi_footer .Khoi_form {
+    width: 448px;
+    height: 48px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.Khoi_footer .Khoi_top-right img{
+    height: 88px;
+}
+
+.Khoi_footer .Khoi_top-right {
+    width: 367px;
+    height: 112px;
+}
+
+/* position */
+.Khoi_footer .Khoi_top {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    background-color: #4A69E2;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.Khoi_footer .Khoi_top-left {
+    position: absolute;
+    left: 72px;
+    top: 64px;
+}
+
+.Khoi_footer .Khoi_top-right {
+    position: absolute;
+    left: 785px;
+    top: 120px;
+}
+
+/* bot footer */
+
+.Khoi_footer .Khoi_bot {
+    position: relative;
+    width: 100%;
+    height: 591px;
+    background-color: #232321;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/* .Khoi_bot position */
+
+.Khoi_footer .Khoi_bot .Khoi_box-1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.Khoi_footer .Khoi_bot .Khoi_box-2{
+    position: absolute;
+    top: 40px;
+    right: 48px;
+}
+
+.Khoi_footer .Khoi_bot .Khoi_box-3{
+    position: absolute;
+    top: 383px;
+    right: 29px;
+}
+/* End .Khoi_bot position */
+
+.Khoi_footer .Khoi_bot .Khoi_box-1 .Khoi_content-1 {
+    color: #FFA52F;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+
+.Khoi_footer .Khoi_bot .Khoi_box-1 .Khoi_content-2 {
+    color: #E7E7E3;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+.Khoi_footer .Khoi_bot .Khoi_box-1 {
+    width: 446px;
+    height: 128px;
+}
+/* 
+<div class="Khoi_box-2">
+                        <div class="Khoi_left">
+                            <div class="Khoi_content-1">Categories</div>
+                            <div class="Khoi_content-2">
+                                <a href="#" class="Khoi_block">Runners</a>
+                                <a href="#" class="Khoi_block">Sneakers</a>
+                                <a href="#" class="Khoi_block">Basketball</a>
+                                <a href="#" class="Khoi_block">Outdoor</a>
+                                <a href="#" class="Khoi_block">Golf</a>
+                                <a href="#" class="Khoi_block">Hiking</a>
+                            </div>
+                        </div>
+
+                        <div class="Khoi_center">
+                            <div class="Khoi_content-1">Company</div>
+                            <div class="Khoi_content-2">
+                                <a href="#" class="Khoi_block">About</a>
+                                <a href="#" class="Khoi_block">Contact</a>
+                                <a href="#" class="Khoi_block">Blogs</a>
+                            </div>
+                        </div>
+
+                        <div class="Khoi_right">
+                            <div class="Khoi_content-1">Follow us</div>
+                            <div class="Khoi_social">
+                                <a href="#" class="Khoi_net"> <i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" class="Khoi_net"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="Khoi_net"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" class="Khoi_net"><i class="fa-brands fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+ */
+
+.Khoi_footer .Khoi_box-2 .Khoi_content-1 {
+    color: #FFA52F;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.Khoi_footer .Khoi_box-2 .Khoi_content-2 a {
+    color: #E7E7E3;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+}
+.Khoi_footer .Khoi_box-2 .Khoi_content-2 {
+    width: 101px;
+    height: 205px;
+    display: inline-flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+
+.Khoi_footer .Khoi_box-2 .Khoi_right .Khoi_social a {
+    font-size: 20px;
+    color: #FAFAFA;
+}
+
+.Khoi_footer .Khoi_box-2 .Khoi_right .Khoi_social {
+    width: 168px;
+    display: inline-flex;
+    gap: 24px;
+    height: 24px;
+}
+
+.Khoi_footer .Khoi_bot .Khoi_box-2 {
+    height: 246px;
+    display: inline-flex;
+    gap: 128px;
+}
+
+.Khoi_footer .Khoi_Khoi_box-3 img {
+    overflow: hidden;
+    object-fit: cover;
+}
+
